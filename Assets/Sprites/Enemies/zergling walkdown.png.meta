@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: d28a875d61179f743843ee181e3ec0e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6677169994118687168
+    second: zergling walkdown_0
+  - first:
+      213: 7733438849784370316
+    second: zergling walkdown_1
+  - first:
+      213: -168320015764179411
+    second: zergling walkdown_2
+  - first:
+      213: -7646179248662515826
+    second: zergling walkdown_3
+  - first:
+      213: 5938959938189918079
+    second: zergling walkdown_4
+  - first:
+      213: -7434946264182662197
+    second: zergling walkdown_5
+  - first:
+      213: -1847672252431938154
+    second: zergling walkdown_6
+  - first:
+      213: -3929123113031268918
+    second: zergling walkdown_7
+  - first:
+      213: 2535960230086150874
+    second: zergling walkdown_8
+  - first:
+      213: 1534553165749598824
+    second: zergling walkdown_9
+  - first:
+      213: -6462481991300255629
+    second: zergling walkdown_10
+  - first:
+      213: -5314082913472901463
+    second: zergling walkdown_11
+  - first:
+      213: 4698306524189946527
+    second: zergling walkdown_12
+  - first:
+      213: -6200683335311637863
+    second: zergling walkdown_13
+  - first:
+      213: 2346988287619822044
+    second: zergling walkdown_14
+  - first:
+      213: -8632028924390438453
+    second: zergling walkdown_15
+  - first:
+      213: -4530404223722011676
+    second: zergling walkdown_16
+  - first:
+      213: 5343121370025688271
+    second: zergling walkdown_17
+  - first:
+      213: -7564125728272005137
+    second: zergling walkdown_18
+  - first:
+      213: -2292405325038017948
+    second: zergling walkdown_19
+  - first:
+      213: -6150147017202795613
+    second: zergling walkdown_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zergling walkdown_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 705
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04698ab744de553a0800000000000000
+      internalID: -6677169994118687168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zergling walkdown_2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 643
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26b9c366d10aadf0800000000000000
+      internalID: -168320015764179411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zergling walkdown_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 573
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ff51b099c6b6250800000000000000
+      internalID: 5938959938189918079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zergling walkdown_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 504
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dc27430efbb56e0800000000000000
+      internalID: -1847672252431938154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zergling walkdown_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 442
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac58ef89853f879c0800000000000000
+      internalID: -3929123113031268918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zergling walkdown_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 382
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada8dc6a46a813320800000000000000
+      internalID: 2535960230086150874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zergling walkdown_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 325
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370703d5ed6a056a0800000000000000
+      internalID: -6462481991300255629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zergling walkdown_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 267
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92fd3c14ecb33140800000000000000
+      internalID: 4698306524189946527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zergling walkdown_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 203
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1f497a96d229020800000000000000
+      internalID: 2346988287619822044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zergling walkdown_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 140
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3ce149c55c021c0800000000000000
+      internalID: -4530404223722011676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zergling walkdown_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 69
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe744f10ab3d60790800000000000000
+      internalID: -7564125728272005137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zergling walkdown_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 13
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abf23b6fd946aaa0800000000000000
+      internalID: -6150147017202795613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 58d14a09e471cbd46b35f5bc56cf6516
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      zergling walkdown_0: -6677169994118687168
+      zergling walkdown_1: 7733438849784370316
+      zergling walkdown_10: -6462481991300255629
+      zergling walkdown_11: -5314082913472901463
+      zergling walkdown_12: 4698306524189946527
+      zergling walkdown_13: -6200683335311637863
+      zergling walkdown_14: 2346988287619822044
+      zergling walkdown_15: -8632028924390438453
+      zergling walkdown_16: -4530404223722011676
+      zergling walkdown_17: 5343121370025688271
+      zergling walkdown_18: -7564125728272005137
+      zergling walkdown_19: -2292405325038017948
+      zergling walkdown_2: -168320015764179411
+      zergling walkdown_20: -6150147017202795613
+      zergling walkdown_3: -7646179248662515826
+      zergling walkdown_4: 5938959938189918079
+      zergling walkdown_5: -7434946264182662197
+      zergling walkdown_6: -1847672252431938154
+      zergling walkdown_7: -3929123113031268918
+      zergling walkdown_8: 2535960230086150874
+      zergling walkdown_9: 1534553165749598824
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

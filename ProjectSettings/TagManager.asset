@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Audio
   layers:
   - Default
   - TransparentFX
@@ -43,6 +44,15 @@ TagManager:
     locked: 0
   - name: Turrets
     uniqueID: 3759510455
+    locked: 0
+  - name: Mapa(Skins)
+    uniqueID: 2820672099
+    locked: 0
+  - name: Mapa(Plots)
+    uniqueID: 3682089441
+    locked: 0
+  - name: FlyingEnemies
+    uniqueID: 1364931225
     locked: 0
   m_RenderingLayers:
   - Default

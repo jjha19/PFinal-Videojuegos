@@ -141,8 +141,10 @@ MonoBehaviour:
     m_Bits: 64
   bulletPrefab: {fileID: 6656910033013595943, guid: dfa3fd5e3047d234a951d3409a617567, type: 3}
   firePoint: {fileID: 139083697694473995}
-  targetingRange: 2.5
+  targetingRange: 5
   bps: 1
+  spawnSFX: {fileID: 8300000, guid: bdb2f988b97d17342a556e1f59589626, type: 3}
+  shootSFX: {fileID: 8300000, guid: eca2a4d8731f63e41bf9b6ba25b858db, type: 3}
 --- !u!1 &8700163278911518723
 GameObject:
   m_ObjectHideFlags: 0

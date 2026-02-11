@@ -10,6 +10,10 @@ public class EnemyMovement : MonoBehaviour
 
     [Header("Attributes")]
     [SerializeField] private float speed = 2f;
+    [SerializeField] private int Damage = 1;
+    
+
+
 
     private Transform target;
     private int pathIndex = 0;
@@ -28,6 +32,7 @@ public class EnemyMovement : MonoBehaviour
             if(pathIndex >= LevelManager.main.path.Length)
             {
                 EnemySpawner.onEnemyDestroy.Invoke();
+                LevelManager.main.LoseLife(Damage);
                 Destroy(gameObject);
                 return;
             } else

@@ -11,11 +11,18 @@ public class Turret : MonoBehaviour
     [Header("Attributes")]
     [SerializeField] private float targetingRange = 2.5f;
     [SerializeField] private float bps = 1f; //Balas por segundo
+    [SerializeField] private AudioClip spawnSFX;
+    [SerializeField] private AudioClip shootSFX;
 
 
     private Transform target;
     private float timeUntilFire = 0f;
 
+
+    private void Awake()
+    {
+        AudioManager.main.PlaySFX(spawnSFX);
+    }
 
 
     private void Update()
@@ -43,9 +50,11 @@ public class Turret : MonoBehaviour
 
     private void Shoot()
     {
+
         GameObject bulletObj = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         Bullet bulletScript = bulletObj.GetComponent<Bullet>();
         bulletScript.SetTarget(target);
+        AudioManager.main.PlaySFX(shootSFX);
     }
 
     private bool CheckTargetIsInRange()

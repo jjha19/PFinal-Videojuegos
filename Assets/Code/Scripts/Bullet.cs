@@ -9,7 +9,14 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float BulletSpeed = 5f;
     [SerializeField] private int bulletDamage = 1;
 
+    private float lifeTime = 5f;
+
     private Transform target;
+
+    private void Start()
+    {
+        Destroy(gameObject, lifeTime);
+    }
 
     public void SetTarget(Transform _target)
     {

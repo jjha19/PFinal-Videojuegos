@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: 94ce0a326a7ea8749934931aae684cd9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6555557132049610649
+    second: mutalisk_0
+  - first:
+      213: -7948911539487906059
+    second: mutalisk_1
+  - first:
+      213: -7177978228960321496
+    second: mutalisk_2
+  - first:
+      213: 945103748538053537
+    second: mutalisk_3
+  - first:
+      213: -1922908899722899699
+    second: mutalisk_4
+  - first:
+      213: 1200674790303971078
+    second: mutalisk_5
+  - first:
+      213: -6119286491406214998
+    second: mutalisk_6
+  - first:
+      213: -3027336859871058869
+    second: mutalisk_7
+  - first:
+      213: 1775059481179141297
+    second: mutalisk_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mutalisk_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 465
+        width: 74
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4999997, y: -0.22097327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99778909a740afa50800000000000000
+      internalID: 6555557132049610649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutalisk_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 349
+        width: 79
+        height: 78
+      alignment: 9
+      pivot: {x: 0.49999994, y: -0.3031092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8202551d4d2b26c90800000000000000
+      internalID: -7177978228960321496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutalisk_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 235
+        width: 72
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5446166, y: -0.24733755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f44903b847055e0800000000000000
+      internalID: -1922908899722899699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutalisk_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 124
+        width: 72
+        height: 75
+      alignment: 9
+      pivot: {x: 0.47087616, y: -0.26049012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8d2e08b5de31ba0800000000000000
+      internalID: -6119286491406214998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutalisk_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 16
+        width: 70
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5419388, y: -0.261111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b43fd6813742a810800000000000000
+      internalID: 1775059481179141297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8164414a394ba084ba3acac2764ec4a6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mutalisk_0: 6555557132049610649
+      mutalisk_1: -7948911539487906059
+      mutalisk_2: -7177978228960321496
+      mutalisk_3: 945103748538053537
+      mutalisk_4: -1922908899722899699
+      mutalisk_5: 1200674790303971078
+      mutalisk_6: -6119286491406214998
+      mutalisk_7: -3027336859871058869
+      mutalisk_8: 1775059481179141297
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

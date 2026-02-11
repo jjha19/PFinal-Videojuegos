@@ -14,15 +14,16 @@ public class EnemySpawner : MonoBehaviour
     [Header("Events")]
     public static UnityEvent onEnemyDestroy = new UnityEvent();
 
-
-    private int currentWave = 0;
+    public int currentWave = 0;
     private float timeSinceLastSpawn;
     private int enemiesAlive;
     private int enemiesLeftToSpawn;
     private bool isSpawning = false;
+    public static EnemySpawner main;
 
     private void Awake()
     {
+        main = this;
         onEnemyDestroy.AddListener(EnemyDestroyed);
     }
     private void Start()
@@ -34,7 +35,7 @@ public class EnemySpawner : MonoBehaviour
         if (!isSpawning) return;
         timeSinceLastSpawn += Time.deltaTime;
         if (timeSinceLastSpawn >= 1 / enemiesPerSecond && enemiesLeftToSpawn > 0)
-        {  
+        {
             SpawnEnemy();
             enemiesAlive++;
             enemiesLeftToSpawn--;
@@ -46,17 +47,17 @@ public class EnemySpawner : MonoBehaviour
             EndWave();
         }
     }
-    
+
 
     private void EnemyDestroyed()
     {
         enemiesAlive--;
-        
+
     }
 
     private void SpawnEnemy()
     {
-        GameObject prefabToSpawn = enemyPrefabs[0];
+        GameObject prefabToSpawn = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
         Instantiate(prefabToSpawn, LevelManager.main.StartPoint.position, Quaternion.identity);
     }
     private IEnumerator StartWave()
@@ -64,7 +65,7 @@ public class EnemySpawner : MonoBehaviour
         yield return new WaitForSeconds(timeBetweenWaves);
         isSpawning = true;
         enemiesLeftToSpawn = EnemiesPerWave();
-        
+
     }
 
     private void EndWave()
@@ -72,14 +73,20 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = false;
         timeSinceLastSpawn = 0f;
         currentWave++;
+        // Aumenta la velocidad de spawn de forma exponencial
+        enemiesPerSecond = enemiesPerSecond * Mathf.Pow(1.15f, currentWave); // 1.15 es el factor de aceleración
+        if (currentWave == 5)
+        {
+            LevelManager.main.WinLevel();
+        }
         StartCoroutine(StartWave());
-        
     }
 
     private int EnemiesPerWave()
     {
         return Mathf.RoundToInt(baseEnemies + (currentWave * Mathf.Pow(currentWave, difficultyScalingFactor)));
     }
+
 
 
 }

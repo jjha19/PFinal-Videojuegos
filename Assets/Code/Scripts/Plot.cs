@@ -18,7 +18,6 @@ public class Plot : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        Debug.Log("Mouse entered: " + gameObject.name);
         sr.color = hoverColor;
     }
 
@@ -29,6 +28,20 @@ public class Plot : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("Build tower here" + gameObject.name);
+        if (tower != null)
+        {
+            return;
+        }
+        Tower towerToBuild = BuildManager.main.GetSelectedTower();
+        if (LevelManager.main.currency < towerToBuild.cost)
+        {
+            AudioManager.main.PlaySFX(AudioManager.main.insufficientFundsClip);
+            return;
+        }
+
+        LevelManager.main.SpendCurrency(towerToBuild.cost);
+        
+        tower = Instantiate(towerToBuild.prefab, transform.position, Quaternion.identity);
     }
 }
+
